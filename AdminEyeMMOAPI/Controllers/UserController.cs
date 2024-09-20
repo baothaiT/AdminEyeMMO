@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using DomainMMO.Models;
+using ApplicationMMO.Services.Interfaces;
 
 namespace AdminEyeMMOAPI.Controllers;
 
@@ -8,9 +9,12 @@ namespace AdminEyeMMOAPI.Controllers;
 public class UserController : ControllerBase
 {
     private readonly ILogger<UserController> _logger;
-    public UserController(ILogger<UserController> logger)
+    private readonly IUserService _userService;
+
+    public UserController(ILogger<UserController> logger, IUserService userService)
     {
         _logger = logger;
+        _userService = userService;
     }
 
     [HttpGet]
@@ -66,7 +70,7 @@ public class UserController : ControllerBase
         return Ok(new
         {
             success = true,
-            message = "Good", 
+            message = _userService.Health(), 
             time = DateTime.Now.ToString()
         });
     }
