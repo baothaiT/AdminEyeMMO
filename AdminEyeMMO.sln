@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestrator-AdminEyeMMO", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminEyeMMOAPI", "AdminEyeMMOAPI\AdminEyeMMOAPI.csproj", "{7EFC4D74-5BFC-45FD-AC5D-0526E2BE6CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationMMO", "ApplicationMMO\ApplicationMMO.csproj", "{5E9A79CB-D627-4550-ABCC-ABC36F4F4E3F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureMMO", "InfrastructureMMO\InfrastructureMMO.csproj", "{E6696139-0686-40BD-808C-1178AAE35ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationMMO", "ApplicationMMO\ApplicationMMO.csproj", "{A7F8DFAF-DC96-47FE-880E-B13496F5F23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainMMO", "DomainMMO\DomainMMO.csproj", "{F3025EFE-7BA6-4F4C-83EF-0F4AD6568EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,13 @@ Global
 		{E6696139-0686-40BD-808C-1178AAE35ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6696139-0686-40BD-808C-1178AAE35ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6696139-0686-40BD-808C-1178AAE35ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F8DFAF-DC96-47FE-880E-B13496F5F23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F8DFAF-DC96-47FE-880E-B13496F5F23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F8DFAF-DC96-47FE-880E-B13496F5F23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F8DFAF-DC96-47FE-880E-B13496F5F23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3025EFE-7BA6-4F4C-83EF-0F4AD6568EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3025EFE-7BA6-4F4C-83EF-0F4AD6568EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3025EFE-7BA6-4F4C-83EF-0F4AD6568EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3025EFE-7BA6-4F4C-83EF-0F4AD6568EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

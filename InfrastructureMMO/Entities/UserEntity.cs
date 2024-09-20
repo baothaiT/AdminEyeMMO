@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 
 namespace InfrastructureMMO.Entities
 {
-    public class UserEntity
+    public class UserEntity: BaseEntity
     {
         public string Id { get; set; }
         public string Email { get; set; }

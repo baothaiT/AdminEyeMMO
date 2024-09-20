@@ -13,11 +13,12 @@ namespace InfrastructureMMO
     public class DataContext : DbContext, IDataContext
     {
         public DbSet<UserEntity> Users { get; set; }
+        public DbSet<BrowserEntity> BrowserEntity { get; set; }
 
         private readonly string _connectionString;
 
         public DataContext() // SQL Server connection string
-            => _connectionString = "Server=DESKTOP-D1B32EL;Database=Test;Trusted_Connection=True;TrustServerCertificate=True;";
+            => _connectionString = "Server=DESKTOP-D1B32EL;Database=AdminEyesMMO;Trusted_Connection=True;TrustServerCertificate=True;";
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlServer(_connectionString);
