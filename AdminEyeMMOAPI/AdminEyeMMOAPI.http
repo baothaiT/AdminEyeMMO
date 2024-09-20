@@ -1,0 +1,6 @@
+@AdminEyeMMOAPI_HostAddress = http://localhost:5146
+
+GET {{AdminEyeMMOAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
